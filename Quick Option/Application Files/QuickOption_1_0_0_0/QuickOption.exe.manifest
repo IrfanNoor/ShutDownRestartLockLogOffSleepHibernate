@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="QuickOption.exe" version="1.0.0.0" publicKeyToken="1da82f6742a627c6" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icons8-software-80.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="QuickOption" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="QuickOption.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu_UI_v1.5.3.dll" size="242176">
+      <assemblyIdentity name="Bunifu_UI_v1.5.3" version="1.5.3.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Gk3/vOKkzmVJXteeq0Kk2jtmCTE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QuickOption.exe" size="148944">
+      <assemblyIdentity name="QuickOption" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>pVpCw9ByBd2AMb7BbOs1DOu2ZJA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icons8-software-80.ico" size="112808">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>p7dOuxzGw1G7SHiHNWtVTi/11q8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="QuickOption.exe.config" size="199">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0jCYP3uB30TQVAG85/4XBrIdl6g=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-149074N\Ch Irfan" issuerKeyHash="85b263a60515e14d0a3e842eb554d9cef49f3f61" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>avEREPO7swtlKgZifDnz556wktw=</DigestValue></Reference></SignedInfo><SignatureValue>UgPxCIgaLuof1LMmjobglgVJelA1zdhQIanKmR8RKR+C6GZjxAUluvLOT1e7YhXQnpsOC2/rfQM5aC0feCO8hrxOf0HPq06UNEd7jHBXaj9yTwQsnoAMMQ/zZw80/2qEckZOQyrHui0ePPnk/xs0dl2zzlvUMaFyLWAA32SW4MQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2+/x+O73FHzk1Behs1pODLhtyaAw8Np1NbpjQK5XT7EGp+uwXR/Oeuy5UvTSy4Owxg8QBTm+UcyCNuieYyvMwhbogEzyAg7usSagPAKzNiciHkaoNDKFD/XDPAG8qDnOFtbK9BXc9thK+LFWoLKVpOLSCcGADw317rNDt298zcU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="dc92b09ee7f3397c62062a650bb3bbf31011f16a" Description="" Url=""><as:assemblyIdentity name="QuickOption.exe" version="1.0.0.0" publicKeyToken="1da82f6742a627c6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-149074N\Ch Irfan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>LmjbN8KBEaX1yPNCcJbNxkNVaUk=</DigestValue></Reference></SignedInfo><SignatureValue>MhXiOLi67b6bwPlQ6/AVA1mRSHCfjj0a9xlyb6OfpbeMJGMEfPdK4Vn+JMXAgLwvPkux2xOQLUnUDTJByDsRrNRgSeFgB5tj6jbNKTA/152Tp6+6hhlOJ3BJULd7WkpWPxl+KeZ57KUWKr3INMG8KvoJlPtAUBgRTwzt8fBwAGs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2+/x+O73FHzk1Behs1pODLhtyaAw8Np1NbpjQK5XT7EGp+uwXR/Oeuy5UvTSy4Owxg8QBTm+UcyCNuieYyvMwhbogEzyAg7usSagPAKzNiciHkaoNDKFD/XDPAG8qDnOFtbK9BXc9thK+LFWoLKVpOLSCcGADw317rNDt298zcU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQPxukgxgS3aBBqucZOnJk7zANBgkqhkiG9w0BAQUFADA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtADEANAA5ADAANwA0AE4AXABDAGgAIABJAHIAZgBhAG4wHhcNMTgwNTI4MTkzOTQyWhcNMTkwNTI5MDEzOTQyWjA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtADEANAA5ADAANwA0AE4AXABDAGgAIABJAHIAZgBhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANvv8fju9xR85NQXobNaTgy4bcmgMPDadTW6Y0CuV0+xBqfrsF0fznrsuVL00suDsMYPEAU5vlHMgjbonmMrzMIW6IBM8gIO7rEmoDwCszYnIh5GqDQyhQ/1wzwBvKg5zhbWyvQV3PbYSvixVqCylaTi0gnBgA8N9e6zQ7dvfM3FAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEABLKGmhEmDSUEnskgayn5rI1tGJc7YXMGNC8nWudkWkceLek9epOoYYAh4JAgWeg2SRYO8ozL5VcNUUvxhE16phx/wrbValefZGbVFZg1iIaPRXhR7SLQKt+4m+m+c3aPwuRvSUiRQqQR1XAuPMCLIqQPUlXRY8hsLk5QptOYZDo=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
